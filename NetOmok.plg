@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NetOmok - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/NetOmok.res" /d "_DEBUG" /d "_AFXDLL" "C:\My Documents\원용\오목\NetOmok\NetOmok.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9065.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetOmok.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\원용\오목\NetOmok\ClientSocket.cpp"
+"C:\My Documents\원용\오목\NetOmok\ConnectDlg.cpp"
+"C:\My Documents\원용\오목\NetOmok\Data.cpp"
+"C:\My Documents\원용\오목\NetOmok\ListenSocket.cpp"
+"C:\My Documents\원용\오목\NetOmok\MainFrm.cpp"
+"C:\My Documents\원용\오목\NetOmok\NetOmok.cpp"
+"C:\My Documents\원용\오목\NetOmok\NetOmokDoc.cpp"
+"C:\My Documents\원용\오목\NetOmok\NetOmokView.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9065.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9066.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/NetOmok.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\My Documents\원용\오목\NetOmok\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP9066.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP9067.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/NetOmok.pdb" /debug /machine:I386 /out:"Debug/NetOmok.exe" /pdbtype:sept 
+".\Debug\ClientSocket.obj"
+".\Debug\ConnectDlg.obj"
+".\Debug\Data.obj"
+".\Debug\ListenSocket.obj"
+".\Debug\MainFrm.obj"
+".\Debug\NetOmok.obj"
+".\Debug\NetOmokDoc.obj"
+".\Debug\NetOmokView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\NetOmok.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP9067.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientSocket.cpp
+ConnectDlg.cpp
+Data.cpp
+ListenSocket.cpp
+MainFrm.cpp
+NetOmok.cpp
+NetOmokDoc.cpp
+NetOmokView.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\WINDOWS\TEMP\RSP90D4.TMP" with contents
+[
+/nologo /o"Debug/NetOmok.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\ClientSocket.sbr"
+".\Debug\ConnectDlg.sbr"
+".\Debug\Data.sbr"
+".\Debug\ListenSocket.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\NetOmok.sbr"
+".\Debug\NetOmokDoc.sbr"
+".\Debug\NetOmokView.sbr"]
+Creating command line "bscmake.exe @C:\WINDOWS\TEMP\RSP90D4.TMP"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+NetOmok.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
